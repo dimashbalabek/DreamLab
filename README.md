@@ -1,16 +1,32 @@
 # dreaml_ab
 
-A new Flutter project.
+Описание проекта DreamLab
+DreamLab — тестовый проект на Flutter, разработанный для демонстрации работы с API, управления состоянием с BLoC и организации кода в рамках чистой архитектуры.
 
-## Getting Started
+Цель проекта
+Разработать функционал для взаимодействия с данными постов через API, реализовав экран с:
 
-This project is a starting point for a Flutter application.
+Загрузкой и отображением списка всех постов.
+Просмотром детальной информации о посте.
+Поиском поста по ID.
+Поддержкой пагинации для работы с большим объемом данных.
 
-A few resources to get you started if this is your first Flutter project:
+Функциональность
+Экран 1: Список постов
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Загружает список постов с API.
+Реализована пагинация — новые посты подгружаются при прокрутке вниз.
+При нажатии на пост открывается экран с детальной информацией.
+Экран 2: Детали поста
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Отображает заголовок и текст поста.
+Показывает индикатор загрузки и обработку ошибок.
+Экран 3: Поиск поста
+
+Поле ввода для ID поста.
+Кнопка "Поиск", отображение найденного поста.
+Сообщение при вводе несуществующего ID.
+
+![Image](https://github.com/user-attachments/assets/c81249ba-d431-4cab-a14c-c38900d2b8ef)
+![Image](https://github.com/user-attachments/assets/9740bd8a-6c93-4b07-96bc-02a174c93eaa)
+![Image](https://github.com/user-attachments/assets/8f1cda58-f940-4ee9-b43c-3c9c45ed68d0)
